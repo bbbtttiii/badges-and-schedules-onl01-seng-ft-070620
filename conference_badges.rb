@@ -19,7 +19,7 @@ def assign_rooms(names)
   names.each_with_index do |names, index| 
     assignments << "Hello, #{names}! You'll be assigned to room #{index + 1}!"
   end
-  return people
+  return assignments
 end
 
 def printer(names)
