@@ -29,3 +29,12 @@ def printer(names)
     puts message
   end
 end
+
+
+
+# to return array using the .each method, which doesn't have a built-in return like .map:
+
+# create empty array
+# iterate through initial array
+# shovel or push |item| into empty array
+# return the newly populated array
