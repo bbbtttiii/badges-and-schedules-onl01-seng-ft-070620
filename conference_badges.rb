@@ -16,9 +16,10 @@ end
 
 def assign_rooms(names)
   people = []
-  names.each_with_index.map do |person, index| 
+  names.each_with_index do |person, index| 
     "Hello, #{person}! You'll be assigned to room #{index + 1}!"
   end
+  return people
 end
 
 def printer(names)
