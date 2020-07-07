@@ -10,8 +10,8 @@ def batch_badge_creator(names)
   badges = []
   names.each do |person|
     "Hello, my name is #{person}."
-    return badges
   end
+  return badges
 end
 
 # def assign_rooms(names)
