@@ -39,12 +39,3 @@ end
 # iterate through initial array
 # shovel or push |item| into empty array
 # return the newly populated array
-
-
-
-
-def assign_rooms(speakers)
-  greet = []
-  speakers.each_with_index{ |speakers, index| greet << "Hello, #{speakers}! You'll be assigned to room #{index+1}!"}
-  return greet
-  end
