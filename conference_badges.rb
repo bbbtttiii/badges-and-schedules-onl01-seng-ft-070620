@@ -32,7 +32,6 @@ def printer(names)
 end
 
 
-
 # to return array using the .each method, which doesn't have a built-in return like .map:
 
 # create empty array
